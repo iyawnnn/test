@@ -65,169 +65,169 @@ const books = [
         title: 'Atomic Habits',
         author: 'James Clear',
         image: 'book-covers/atomic-habits-tiny-changes-remarkable-results.jpg',
-        url: 'books-html/atomic-habits.html'
+        url: 'atomic-habits.html'
     },
     {
         title: 'The Power of Habit',
         author: 'Charles Duhigg',
         image: 'book-covers/the power of habit.png',
-        url: 'books-html/power-habit.html'
+        url: 'power-habit.html'
     },
     {
         title: 'Ego Is the Enemy',
         author: 'Ryan Holiday',
         image: 'book-covers/ego-is-the-enemy.jpg',
-        url: 'books-html/ego-is-the-enemy.html'
+        url: 'ego-is-the-enemy.html'
     },
     {
         title: 'The 48 Laws of Power',
         author: 'Robert Greene',
         image: 'book-covers/48-laws.png',
-        url: 'books-html/48-laws.html'
+        url: '48-laws.html'
     },
     {
         title: 'Think and Grow Rich',
         author: 'Napoleon Hill',
         image: 'book-covers/think-and-grow-rich-65.jpg',
-        url: 'books-html/think-and-grow-rich.html'
+        url: 'think-and-grow-rich.html'
     },
     {
         title: 'Rich Dad Poor Dad',
         author: 'Robert Kiyosaki',
         image: 'book-covers/rich-dad-poor-dad-9.jpg',
-        url: 'books-html/rich-dad-poor-dad.html'
+        url: 'rich-dad-poor-dad.html'
     },
     {
         title: 'It Ends With Us',
         author: 'Colleen Hoover',
         image: 'book-covers/it ends with us.jpg',
-        url: 'books-html/it-ends-with-us.html'
+        url: 'it-ends-with-us.html'
     },
     {
         title: 'Love Theoretically',
         author: 'Ali Hazelwood',
         image: 'book-covers/love theoretically.jpg',
-        url: 'books-html/love-theoretically.html'
+        url: 'love-theoretically.html'
     },
     {
         title: 'Happy Place',
         author: 'Emily Henry',
         image: 'book-covers/happy place.jpg',
-        url: 'books-html/happy-place.html'
+        url: 'happy-place.html'
     },
     {
         title: 'Beach Read',
         author: 'Emily Henry',
         image: 'book-covers/beach read.jpg',
-        url: 'books-html/beach-read.html'
+        url: 'beach-read.html'
     },
     {
         title: 'Red, White & Royal Blue',
         author: 'Casey McQuiston',
         image: 'book-covers/red-white-royal-blue.jpg',
-        url: 'books-html/red-white-royal-blue.html'
+        url: 'red-white-royal-blue.html'
     },
     {
         title: 'Sapiens',
         author: 'Yuval Noah Harari',
         image: 'book-covers/sapiens.jpg',
-        url: 'books-html/sapiens.html'
+        url: 'sapiens.html'
     },
     {
         title: 'Outliers',
         author: 'Malcolm Gladwell',
         image: 'book-covers/outliers.jpg',
-        url: 'books-html/outliers.html'
+        url: 'outliers.html'
     },
     {
         title: 'Becoming',
         author: 'Michelle Obama',
         image: 'book-covers/becoming.jpg',
-        url: 'books-html/becoming.html'
+        url: 'becoming.html'
     },
     {
         title: 'The Art of War',
         author: 'Sun Tzu',
         image: 'book-covers/the-art-of-war-74.jpg',
-        url: 'books-html/the-art-of-war.html'
+        url: 'the-art-of-war.html'
     },
     {
         title: 'Thinking, Fast and Slow',
         author: 'Daniel Kahneman',
         image: 'book-covers/thinking-fast-and-slow.jpg',
-        url: 'books-html/thinking-fast.html'
+        url: 'thinking-fast.html'
     },
     {
         title: 'The Alchemist',
         author: 'Paulo Coelho',
         image: 'book-covers/alchemist.jpg',
-        url: 'books-html/alchemist.html'
+        url: 'alchemist.html'
     },
     {
         title: 'The Last Olympian',
         author: 'Rick Riordan',
         image: 'book-covers/the last olympian.jpg',
-        url: 'books-html/last-olympian.html'
+        url: 'last-olympian.html'
     },
     {
         title: 'A Little Life',
         author: 'Hanya Yanagihara',
         image: 'book-covers/a-little-life-2.jpg',
-        url: 'books-html/little-life.html'
+        url: 'little-life.html'
     },
     {
         title: 'Normal People',
         author: 'Sally Rooney',
         image: 'book-covers/nromal-people.jpg',
-        url: 'books-html/normal-people.html'
+        url: 'normal-people.html'
     },
     {
         title: 'It Starts With Us',
         author: 'Colleen Hoover',
         image: 'book-covers/it starts with us.jpg',
-        url: 'books-html/it-starts-with-us.html'
+        url: 'it-starts-with-us.html'
     },
     {
         title: 'Dune',
         author: 'Frank Herbert',
         image: 'book-covers/dune.jpg',
-        url: 'books-html/dune.html'
+        url: 'dune.html'
     },
     {
         title: 'Hyperion',
         author: 'Dan Simmons',
         image: 'book-covers/hyperion-8.jpg',
-        url: 'books-html/hyperion.html'
+        url: 'hyperion.html'
     },
     {
         title: 'Harry Potter',
         author: 'J.K. Rowling',
         image: 'book-covers/harry-potter.jpg',
-        url: 'books-html/harry-potter.html'
+        url: 'harry-potter.html'
     },
     {
         title: 'The Hunger Games',
         author: 'Suzanne Collins',
         image: 'book-covers/hunger-games.jpg',
-        url: 'books-html/hunger-games.html'
+        url: 'hunger-games.html'
     },
     {
         title: 'Gone Girl',
         author: 'Gillian Flynn',
         image: 'book-covers/gone-girl.jpg',
-        url: 'books-html/gone-girl.html'
+        url: 'gone-girl.html'
     },
     {
         title: 'Julius Caesar',
         author: 'William Shakespeare',
         image: 'book-covers/julius-caesar.jpg',
-        url: 'books-html/julius-caesar.html'
+        url: 'julius-caesar.html'
     },
     {
         title: 'Romeo and Juliet',
         author: 'William Shakespeare',
         image: 'book-covers/romeo-and-juliet-320.jpg',
-        url: 'books-html/romeo-juliet.html'
+        url: 'romeo-juliet.html'
     }
 ];
 
