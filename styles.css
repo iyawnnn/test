@@ -334,8 +334,7 @@ body {
     text-align: left;  
     font-family: 'Gabarito', sans-serif; 
     font-size: 28px; 
-    margin-bottom: 700px;
-    margin-bottom: 500px;
+    margin-bottom:650px;
 }
 
 .book-result-card {
@@ -2415,5 +2414,181 @@ textarea {
     .copyright-section {
         font-family: 'Gabarito', sans-serif;
         font-size: 12px;
+    }
+}
+
+
+/* ============================================ */
+/*                  Print Query                 */
+/* ============================================ */
+@media print {
+    body {
+        color: black;
+        background: white;
+        font-family: Arial, sans-serif;
+    }
+
+    .sidebar, .navbar, .hero, .video-container, .footer, .search-bar-mobile, .hamburger-menu {
+        display: none; /* Hide non-essential elements */
+    }
+
+    .categories-container-wrapper, .featured-author-wrapper, .popular-books-section, .book-ratings-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    th, td {
+        border: 1px solid black;
+        padding: 4px; /* Reduced padding for smaller height */
+        color: black;
+    }
+
+    img {
+        display: none; /* Hide images in print */
+    }
+
+    a, h1, h2, h4, p, .browse-button, .view-book-link {
+        color: black;
+        text-decoration: none;
+    }
+
+    h1, h2, h4 {
+        font-weight: bold;
+    }
+
+    .view-book-button {
+        color: #000;
+        border-color: #000;
+    }
+
+    .browse-button {
+        border-color: black;
+    }
+
+    .category, .book, .featured-author-container {
+        background: white;
+        box-shadow: none;
+    }
+
+    .star-rating {
+        color: black;
+    }
+
+    .collection-image {
+        height: 70px;
+        width: 70px;
+    }
+
+    .collections-container {
+        display: block;
+    }
+
+    .collections-inner {
+        margin: 0;
+        padding: 0;
+    }
+
+    .collections-title {
+        margin-top: 0;
+        margin-bottom: 10px;
+        font-size: 24px;
+    }
+
+    .collections-section, .collection-item {
+        box-shadow: none;
+    }
+
+    .background-overlay {
+        display: none;
+    }
+
+    .form-buttons {
+        display: none; 
+    }
+
+    .contact-info-container {
+        margin-top: 20px; 
+    }
+
+    .contact-info {
+        margin-top: 20px; 
+    }
+
+    .view-book-category {
+        background-color: black;
+        color: white;           
+        text-align: center;      
+        border: none;
+        text-decoration: none;    
+        display: inline-block;    
+    }
+    
+    .books-category-container {
+        display: grid; 
+        grid-template-columns: repeat(2, 1fr); 
+        gap: 10px; 
+        margin: 0; 
+    }
+    
+    .book-cover-category {
+        max-width: 100%;
+        margin: 0;
+        width: 90%; 
+        height: 250px; 
+        box-sizing: border-box; 
+        overflow: hidden; 
+        display: flex; 
+        flex-direction: column; 
+        justify-content: space-between; 
+    }
+    
+    .book-picture-cover {
+        max-height: 120px; 
+        object-fit: cover; 
+    }
+
+    .mobile-buy-button {
+        background-color: black; 
+        color: white;            
+        padding: 10px 20px;     
+        text-align: center;     
+        display: inline-block;   
+        text-decoration: none;    
+        border-radius: 5px;      
+        border-color: black;
+    }
+
+    /* Rating */
+    .mobile-rating {
+        font-size: 1.5em;  
+        color: black;       
+        margin: 10px 0;  
+    }
+
+    .mobile-book-title {
+        font-size: 15pt;
+    }
+
+    .mobile-description {
+        font-size: 10pt;
+    }
+
+    .view-book-link {
+        background-color: black; 
+        color: white;           
+        padding: 4px 16px;      
+        text-decoration: none;  
+        border: 1px solid black; 
+        border-radius: 4px;    
+        display: inline-block;   
+    }
+
+    .book-result-card {
+        height: 200px;
     }
 }
